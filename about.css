@@ -1,0 +1,21 @@
+#about h1{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-family: cursive;
+}
+#about h2{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background-color: white;
+    color: black;
+    font-family: cursive;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp9166540.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

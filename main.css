@@ -1,0 +1,157 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #eeaecac0, #94bbedc0);
+}
+
+nav {
+    background-color: #cc99ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+#about{
+    margin-left: 50px;
+    color: #7B3F00;
+    font-family: cursive;
+    cursor: pointer;
+    
+}
+
+#contact{
+    margin-right: 50px;
+    color: #7B3F00;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+nav img {
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+nav div {
+    text-align: center; 
+    flex-grow: 1; 
+}
+
+
+
+nav h1 {
+    margin: 5px 0;
+    font-size: 30px;
+    color:#7B3F00;
+    font-family: cursive ;
+    font-weight: bold ;
+    text-shadow: 3px 3px 3px #7B3F00;
+}
+
+#slogan {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #7B3F00;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+
+section {
+    padding-top: 120px; /* Adjust for the fixed navbar */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px; 
+}
+
+.product {
+    
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    width: 275px;
+    height: 400px;
+    margin: 20px; 
+    justify-content: space-between; 
+    background: linear-gradient(to right, #eeaecac0, #94bbedc0);
+    
+}
+
+.product:hover{
+    background: linear-gradient(to right, #94bbedc0 , #eeaecac0);
+}
+
+
+
+.product img {
+    max-width: 100%;
+    max-height: 70%; /* Adjusted */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+.product img:hover {
+    transform: scale(1.2); 
+}
+
+.product-info {
+    flex-grow: 1;
+    text-align: center; /* Adjusted */
+    margin-bottom: 20px; /* Added margin to separate from the button */
+}
+
+.product-info h2 {
+    margin-top: 0;
+    margin-bottom: 5px; /* Adjusted */
+    font-size: 18px; /* Adjusted */
+}
+
+.product-info p {
+    margin: 0;
+    font-size: 14px; /* Adjusted */
+}
+
+.product-info button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.product-info button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-around;
+}
+
